@@ -94,47 +94,4 @@ npm run dev
 ```
 
 Vite mostrará la dirección local del proyecto en la terminal, normalmente `http://localhost:5173`.
-
-## Verificación del proyecto
-
-```bash
-npm run lint
-npm run build
-npm run preview
-```
-
-## Publicación en GitHub Pages
-
-El proyecto está configurado para generar rutas relativas y utilizar la rama `gh-pages`.
-
-```bash
-npm run deploy
-```
-
-Después del despliegue:
-
-1. Abrir el repositorio en GitHub.
-2. Ingresar a **Settings** y después a **Pages**.
-3. Verificar que la publicación utilice la rama `gh-pages`.
-4. Comprobar que el enlace público cargue las imágenes y funcionalidades.
-5. Incorporar el enlace publicado en esta sección.
-
-## Evidencias recomendadas
-
-Para demostrar las funcionalidades solicitadas en la pauta, se recomienda incorporar capturas de:
-
-- Página de bienvenida.
-- Catálogo completo.
-- Búsqueda o filtro aplicado.
-- Carrito vacío.
-- Carrito con más de un producto.
-- Cantidades y total actualizados.
-- Aplicación publicada en GitHub Pages.
-
-## Entrega
-
-El repositorio debe ser público, contener los archivos organizados y presentar enlaces funcionales. El proyecto también debe entregarse comprimido, sin la carpeta `node_modules`, utilizando el siguiente formato:
-
-```text
-NombreAlumno_NombreActividad_PFY2201.zip
 ```
